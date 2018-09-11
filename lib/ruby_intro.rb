@@ -55,7 +55,7 @@ def starts_with_consonant? s
   return false
 end
 
-# https://stackoverflow.com/questions/2339695/how-to-convert-a-string-or-integer-to-binary-in-ruby
+# used the info provided in this post - https://stackoverflow.com/questions/2339695/how-to-convert-a-string-or-integer-to-binary-in-ruby
 def binary_multiple_of_4? s
   if (s.length != 0 && /^[01][01]*/ =~ s)
     num = s.to_i(2)
